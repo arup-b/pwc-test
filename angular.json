@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "PWC-Test"
+    }
+  },
+  "defaultProject": "PWC-Test",
+  "cli": {
+    "analytics": false
+  }
 }

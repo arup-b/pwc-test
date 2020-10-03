@@ -1,0 +1,117 @@
+.main-container {
+  margin-top   : 2rem;
+  margin-bottom: 5rem;
+  ;
+}
+
+.custom-card {
+  margin-bottom: 1rem;
+  border       : 1px solid #dddcdc;
+}
+
+.card-info {
+  color    : #b4b4b4;
+  font-size: small;
+}
+
+.card-title {
+  color    : #7c7c7c;
+  font-size: medium;
+}
+
+.card-text {
+  font-size : small;
+  color     : #5e5e5e;
+  text-align: justify;
+}
+
+.card-footer {
+  text-align      : right;
+  background-color: white;
+  font-size       : smaller;
+  color           : #b4b4b4;
+
+}
+
+.menu-holder {
+  margin-left: 5rem;
+}
+
+.dropbtn {
+  //background-color: #4CAF50;
+  color    : #838383;
+  padding  : 10px;
+  font-size: 12px;
+  border   : none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position   : relative;
+  display    : inline-block;
+  margin-left: 3rem;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display         : none;
+  position        : absolute;
+  background-color: #f1f1f1;
+  min-width       : 160px;
+  box-shadow      : 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index         : 1;
+}
+
+
+.dropdown-content a {
+  padding        : 16px 16px;
+  text-decoration: none;
+  display        : block;
+  color          : #666565;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #aaaaaa;
+  color           : #ffffff;
+}
+
+footer {
+  // position        : fixed;
+  left            : 0;
+  bottom          : 0;
+  width           : 100%;
+  background-color: #cccccc;
+  color           : white;
+  text-align      : center;
+  padding-top     : 2rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+
+.sidecard {
+  display       : block;
+  position      : fixed;
+  right         : 2rem;
+  top           : 8rem;
+  border        : 2px solid #838383;
+  // width      : 300px;
+  // z-index : 100;
+}
+
+.sidecard-img {
+  margin-top   : 1rem;
+  margin-bottom: 2rem;
+}
